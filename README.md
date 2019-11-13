@@ -5,4 +5,6 @@
  
  3.未考虑成交延时、滑点、部分成交的情况
  
- 4.本项目为事件驱动回测框架，forecas模块中可以添加预测类模型，joking文件夹用来存放strategy运行脚本
+ 4.本项目为事件驱动回测框架，forecast模块中可以添加预测类模型，joking文件夹用来存放strategy运行脚本
+ 
+ ps:目前forecast尚未完善
