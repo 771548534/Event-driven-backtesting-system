@@ -4,6 +4,10 @@
  2.Event的FillEvent中可以设置默认手续费，对于特别品种，应在execution.py的execute_order中设置手续费
  
  3.未考虑成交延时、滑点、部分成交的情况
+
+ 4.目前仅针对市价订单建模，为了灵活，应增加 限价订单 和 订单种类判断
+ 
+ 5.目前的订单数量是人为设定，应通过 资金管理 和 信号强度（SignalEvent.strenth） 来判断订单大小
  
  4.本项目为事件驱动回测框架，forecast模块中可以添加预测类模型，joking文件夹用来存放strategy运行脚本
  
