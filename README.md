@@ -1,4 +1,4 @@
-# HF
+# 项目要点
  1.数据源自聚宽的get_ticks
  
  2.Event的FillEvent中可以设置默认手续费，对于特别品种，应在execution.py的execute_order中设置手续费
